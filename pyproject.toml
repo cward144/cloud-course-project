@@ -41,7 +41,6 @@ static-code-qa = [
 # - show enhanced autocompletion for stubs libraries
 # See .vscode/settings.json to see how VS Code is configured to use these tools
 dev = ["cloud-course-project[test,release,static-code-qa,stubs]"]
-pip install --editable .[dev]
 
 [build-system]
 # Minimum requirements for the build system to execute.
